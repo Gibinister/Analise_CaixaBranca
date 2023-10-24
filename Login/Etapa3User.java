@@ -4,9 +4,14 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
+/**
+ * This classe is used to connect to the database and check if the user is registered.
+ */
 public class User {
-
+     /**
+     * This method is used to connect to the database.
+     * @return conn
+     */
     public Connection ConectarBD(){
         Connection conn = null;
         try{
@@ -18,7 +23,12 @@ public class User {
     }
         public String nome="";
         public boolean result=false;
-
+         /**
+         * This method is used to check if the user is registered.
+         * @param login  the user login
+         * @param senha the user password
+         * @return result of user
+         */
         public boolean verificiarUsuario(String login, String senha){
             String sql ="";
             Connection conn = ConectarBD();
