@@ -5,5 +5,5 @@ comentários de múltiplas linhas utilizando /* <código-fonte> */,
 
 e para a documentação de classes, métodos e variáveis foi utilizado /** <código-fonte> **/ 
 
-Caso queira conferir o programa documentado se encontra em src/Login/Etapa3User.java
+Caso queira conferir o programa documentado se encontra em Login/Etapa3User.java
 com todas as documentações em inglês
